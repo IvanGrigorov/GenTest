@@ -1,4 +1,4 @@
-## Simple Generic Generator
+## Simple Generics Generator
 
 Generates different type of generics for specific class and allows yoy yto store strictly typed collection
 
@@ -8,7 +8,7 @@ Can be extended in future with more templates.
 
 ### How to use
 
-```php -f <vendor><package>\src\Lib\CreateGenericClass.php <type> <naspace of object to store> <namespace where your generics are stored> <folder of yoyr generics>```
+```php -f <vendor><package>\src\Lib\CreateGenericClass.php <type> <namespace of object to store> <namespace where your generics are stored> <folder of yoyr generics>```
 
 It generates a *Generic* class in your given folder.
 
