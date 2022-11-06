@@ -1,22 +1,23 @@
 <?php
-namespace Ig\Generics\Lib\Namespace;
+namespace NamespaceExample;
 
-use Ig\Generics\Lib\Test;
+use ClassNamespace;
 use Exception;
+use TestObject;
 
-final class TestGenerics {
+final class ClassName {
 
     private array $items;
 
-    public function pop() : Test {
-        return $this->items[0];
+    public function bulkInsert(array $items) {
+        array_merge($this->items, $items);
     }
 
-    public function add(Test $item) : void {
+    public function add(TestObject $item) : void {
         $this->items[] = $item;
     }
 
-    public function get(int $id) : Test {
+    public function get(int $id) : TestObject {
         if (isset($this->items[$id])) {
             return $this->items[$id];
         }
@@ -33,7 +34,7 @@ final class TestGenerics {
         }
     }
 
-    public function insertAt(mixed $id, Test $item) {
+    public function insertAt(mixed $id, TestObject $item) {
         $this->items[$id] = $item;
 
     }
