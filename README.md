@@ -1,4 +1,4 @@
-## Simple Generic Generator
+## Simple Generics Generator
 
 Generates different type of generics for specific class and allows yoy yto store strictly typed collection
 
