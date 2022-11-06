@@ -1,0 +1,17 @@
+{
+    "name": "ig/generics",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ig\\Generics\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Grigorov",
+            "email": "ivangrigorov9@gmail.com"
+        }
+    ],
+    "require": {}
+}
